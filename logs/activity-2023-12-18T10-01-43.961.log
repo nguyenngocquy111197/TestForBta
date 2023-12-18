@@ -1,3 +1,0 @@
-time="2023-12-18 09:51:57" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8082"
-time="2023-12-18 09:51:58" level=error msg="http: Server closed"
-time="2023-12-18 09:51:58" level=info msg="[   Server] Server has shutdown !"

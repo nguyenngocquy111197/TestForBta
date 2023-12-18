@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "8c768dc7-5745-40a5-907b-1e6573e092a1",
+		"name": "btaskee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29364610"
+	},
+	"item": [
+		{
+			"name": "booking",
+			"item": [
+				{
+					"name": "account",
+					"item": [
+						{
+							"name": "listRole",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8080/account/listRole",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8080",
+									"path": [
+										"account",
+										"listRole"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "account/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"phone\":\"0934809551\",\n    \"name\":\"Nguyen Ngoc Quy\",\n    \"role\":2,\n    \"listServiceCode\": [\"1\",\"2\"]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8080/account/create",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8080",
+									"path": [
+										"account",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "familyServices",
+					"item": [
+						{
+							"name": "createFamilyServices",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"code\":\"2\",\n    \"name\":\"Dịch vụ dọn dẹp máy lạnh\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8080/familyService/insert",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8080",
+									"path": [
+										"familyService",
+										"insert"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "listFamilyServices",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8080/familyService/get",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8080",
+									"path": [
+										"familyService",
+										"get"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "check status booking",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/booking/check/status?transID=657e675b31e1e76767038bed",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"check",
+								"status"
+							],
+							"query": [
+								{
+									"key": "transID",
+									"value": "657e675b31e1e76767038bed"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "booking",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"serviceCode\":\"1\",\n    \"price\":10,\n    \"customerId\":\"657c6b54eb4c2cd5a4c1ba27\",\n    \"transactionId\":\"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/booking",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"transactionId\":\"\",\n    \"status\":\"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/booking/update/status",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"update",
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "send",
+			"item": [
+				{
+					"name": "sendInfoService",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"transactionId\":\"657c537941924c3837425471\",\n    \"serviceProviderId\":\"657c537941924c3837425472\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8081/send/info/service",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8081",
+							"path": [
+								"send",
+								"info",
+								"service"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "pricing",
+			"item": [
+				{
+					"name": "calculate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"serviceCode\":\"2\",\n    \"customerId\":\"657c6b54eb4c2cd5a4c1ba27\",\n    \"date\":\"2023-10-31T17:00:00.000Z\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8082/calculate",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"calculate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

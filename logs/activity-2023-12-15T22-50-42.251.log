@@ -1,8 +1,0 @@
-time="2023-12-15 22:27:31" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
-time="2023-12-15 22:27:33" level=debug msg="Log-CreateAccount-Request:" json="{Phone:0934809551 Name:Nguyen Ngoc Quy Role:2}"
-time="2023-12-15 22:27:33" level=debug msg="Log-CreateAccount-Response:" json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Id:ObjectID(\"657c7065ef988c34daecd714\")}" process_time (ms): =3.374833
-time="2023-12-15 22:27:33" level=info msg="[GIN] 2023/12/15 - 22:27:33 | 200 |    5.808542ms |       127.0.0.1 | POST     \"/booking/account/create\""
-time="2023-12-15 22:27:35" level=debug msg="Log-CreateAccount-Request:" json="{Phone:0934809551 Name:Nguyen Ngoc Quy Role:2}"
-time="2023-12-15 22:27:35" level=debug msg="Log-CreateAccount-Response:" json="{BasicResp:{Code:1 Message:Phone Exist ReturnIndex:3 ReturnAction:bookingService.CreateAccount} Id:ObjectID(\"000000000000000000000000\")}" process_time (ms): =0.905125
-time="2023-12-15 22:27:35" level=info msg="[GIN] 2023/12/15 - 22:27:35 | 200 |    1.263042ms |       127.0.0.1 | POST     \"/booking/account/create\""
-time="2023-12-15 22:28:23" level=error msg="http: Server closed"

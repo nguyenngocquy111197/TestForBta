@@ -1,7 +1,0 @@
-time="2023-12-15 20:23:56" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
-time="2023-12-15 20:24:00" level=info msg="[GIN] 2023/12/15 - 20:24:00 | 400 |    1.755375ms |       127.0.0.1 | POST     \"/booking/familyService/insert\""
-time="2023-12-15 20:24:09" level=debug msg="Log-Request:" json="{Code:1 Name:Dịch vụ dọn nhà}"
-time="2023-12-15 20:24:09" level=debug msg=Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Id:ObjectID(\"657c537941924c3837425475\")}" process_time (ms): =8.100333
-time="2023-12-15 20:24:09" level=info msg="[GIN] 2023/12/15 - 20:24:09 | 200 |    8.942708ms |       127.0.0.1 | POST     \"/booking/familyService/insert\""
-time="2023-12-15 20:24:55" level=error msg="http: Server closed"
-time="2023-12-15 20:24:55" level=info msg="[   Server] Server has shutdown !"

@@ -1,3 +1,0 @@
-time="2023-12-16 18:47:10" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8081"
-time="2023-12-16 18:47:10" level=error msg="listen tcp 0.0.0.0:8081: bind: address already in use"
-time="2023-12-16 18:47:10" level=info msg="[   Server] Server has shutdown !"

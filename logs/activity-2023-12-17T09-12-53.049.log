@@ -1,0 +1,19 @@
+time="2023-12-17 09:12:39" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8081"
+time="2023-12-17 09:12:56" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e59284dffc43a63d5b615\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:12:56" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000500
+time="2023-12-17 09:12:56" level=info msg="[GIN] 2023/12/17 - 09:12:56 | 200 |    1.415667ms |       127.0.0.1 | POST     \"/send/booking\""
+time="2023-12-17 09:13:04" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e59304dffc43a63d5b616\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:13:04" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000541
+time="2023-12-17 09:13:04" level=info msg="[GIN] 2023/12/17 - 09:13:04 | 200 |     299.958µs |       127.0.0.1 | POST     \"/send/booking\""
+time="2023-12-17 09:13:15" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e593b4dffc43a63d5b617\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:13:15" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000417
+time="2023-12-17 09:13:15" level=info msg="[GIN] 2023/12/17 - 09:13:15 | 200 |     445.708µs |       127.0.0.1 | POST     \"/send/booking\""
+time="2023-12-17 09:17:02" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e5a1e4dffc43a63d5b618\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:17:02" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000708
+time="2023-12-17 09:17:02" level=info msg="[GIN] 2023/12/17 - 09:17:02 | 200 |    1.327958ms |       127.0.0.1 | POST     \"/send/booking\""
+time="2023-12-17 09:17:16" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e5a1e4dffc43a63d5b618\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:17:16" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000583
+time="2023-12-17 09:17:16" level=info msg="[GIN] 2023/12/17 - 09:17:16 | 200 |    1.112416ms |       127.0.0.1 | POST     \"/send/booking\""
+time="2023-12-17 09:17:20" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657e5a1e4dffc43a63d5b618\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}"
+time="2023-12-17 09:17:20" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.000417
+time="2023-12-17 09:17:20" level=info msg="[GIN] 2023/12/17 - 09:17:20 | 200 |     233.917µs |       127.0.0.1 | POST     \"/send/booking\""

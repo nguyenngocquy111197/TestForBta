@@ -1,0 +1,5 @@
+time="2023-12-15 20:50:37" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
+time="2023-12-15 20:51:02" level=debug msg=Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Result:[{ID:ObjectID(\"657c537941924c3837425475\") Code:1 Name:Dịch vụ dọn nhà Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:24:09.135 +0000 UTC CreateAt:2023-12-15 13:24:09.135 +0000 UTC} {ID:ObjectID(\"657c55bd374445bb56d8d742\") Code:2 Name:Dịch vụ dọn dẹp máy lạnh Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:33:49.076 +0000 UTC CreateAt:2023-12-15 13:33:49.076 +0000 UTC}]}" process_time (ms): =2.402417
+time="2023-12-15 20:51:02" level=info msg="[GIN] 2023/12/15 - 20:51:02 | 200 |    2.820333ms |       127.0.0.1 | GET      \"/booking/listRole\""
+time="2023-12-15 20:51:44" level=error msg="http: Server closed"
+time="2023-12-15 20:51:44" level=info msg="[   Server] Server has shutdown !"

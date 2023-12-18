@@ -1,0 +1,8 @@
+time="2023-12-17 10:19:47" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
+time="2023-12-17 10:19:52" level=debug msg="Log-Booking-Request:" json="{ServiceCode:1 Price:10 IdCustomer:ObjectID(\"657c6b54eb4c2cd5a4c1ba27\") TransactionId:ObjectID(\"000000000000000000000000\")}"
+time="2023-12-17 10:19:52" level=debug msg="Log-Booking-Response:" json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} IsNewTransID:true IsFind:true TransactionId:ObjectID(\"657e68d87fc217eab57ed2c3\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}" process_time (ms): =14.936417
+time="2023-12-17 10:19:52" level=info msg="[GIN] 2023/12/17 - 10:19:52 | 200 |    21.51675ms |       127.0.0.1 | POST     \"/booking\""
+time="2023-12-17 10:19:58" level=debug msg="Log-Booking-Request:" json="{ServiceCode:1 Price:10 IdCustomer:ObjectID(\"657c6b54eb4c2cd5a4c1ba27\") TransactionId:ObjectID(\"000000000000000000000000\")}"
+time="2023-12-17 10:19:58" level=debug msg="Log-Booking-Response:" json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} IsNewTransID:true IsFind:true TransactionId:ObjectID(\"657e68de7fc217eab57ed2c4\") IdServiceProvider:ObjectID(\"657d8c530680e9eda9126454\")}" process_time (ms): =3.965750
+time="2023-12-17 10:19:58" level=info msg="[GIN] 2023/12/17 - 10:19:58 | 200 |    4.273167ms |       127.0.0.1 | POST     \"/booking\""
+time="2023-12-17 10:21:16" level=error msg="http: Server closed"

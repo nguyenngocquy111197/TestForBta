@@ -1,0 +1,12 @@
+time="2023-12-16 18:37:50" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
+time="2023-12-16 18:38:47" level=info msg="[GIN] 2023/12/16 - 18:38:47 | 200 |    1.177125ms |       127.0.0.1 | GET      \"/account/listRole\""
+time="2023-12-16 18:38:59" level=debug msg="Log-CreateAccount-Request:" json="{Phone:0934809551 Name:Nguyen Ngoc Quy Role:2 ListServiceCode:[1 2]}"
+time="2023-12-16 18:38:59" level=debug msg="Log-CreateAccount-Response:" json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Id:ObjectID(\"657d8c530680e9eda9126454\")}" process_time (ms): =7.985708
+time="2023-12-16 18:38:59" level=info msg="[GIN] 2023/12/16 - 18:38:59 | 200 |   11.489084ms |       127.0.0.1 | POST     \"/account/create\""
+time="2023-12-16 18:39:12" level=debug msg=Log-Response-GetListFamilyServices json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Result:[{ID:ObjectID(\"657c537941924c3837425475\") Code:1 Name:Dịch vụ dọn nhà Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:24:09.135 +0000 UTC CreateAt:2023-12-15 13:24:09.135 +0000 UTC} {ID:ObjectID(\"657c55bd374445bb56d8d742\") Code:2 Name:Dịch vụ dọn dẹp máy lạnh Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:33:49.076 +0000 UTC CreateAt:2023-12-15 13:33:49.076 +0000 UTC}]}" process_time (ms): =4.660958
+time="2023-12-16 18:39:12" level=info msg="[GIN] 2023/12/16 - 18:39:12 | 200 |     5.22175ms |       127.0.0.1 | GET      \"/familyService/get\""
+time="2023-12-16 18:39:16" level=info msg="[GIN] 2023/12/16 - 18:39:16 | 200 |      37.291µs |       127.0.0.1 | GET      \"/account/listRole\""
+time="2023-12-16 18:40:58" level=debug msg="Log-Booking-Request:" json="{ServiceCode:1 Price:10 IdCustomer:ObjectID(\"657c6b54eb4c2cd5a4c1ba27\") TransactionId:ObjectID(\"000000000000000000000000\")}"
+time="2023-12-16 18:40:58" level=debug msg="Log-Booking-Response:" json="{BasicResp:{Code:2 Message:Post \"http://127.0.0.1:8081/machine/fingerprint/validate\": dial tcp 127.0.0.1:8081: connect: connection refused ReturnIndex:4 ReturnAction:bookingService.Booking} IsNewTransID:false IsFind:false TransactionId:ObjectID(\"000000000000000000000000\") IdServiceProvider:ObjectID(\"000000000000000000000000\")}" process_time (ms): =13.038459
+time="2023-12-16 18:40:58" level=info msg="[GIN] 2023/12/16 - 18:40:58 | 200 |   14.749625ms |       127.0.0.1 | POST     \"/booking\""
+time="2023-12-16 18:41:10" level=error msg="http: Server closed"

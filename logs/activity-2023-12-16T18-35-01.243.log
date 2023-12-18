@@ -1,0 +1,5 @@
+time="2023-12-15 22:51:09" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8081"
+time="2023-12-15 22:55:13" level=debug msg="Log-SendInfoService-Request:" json="{TransactionId:ObjectID(\"657c537941924c3837425471\") IdServiceProvider:ObjectID(\"657c537941924c3837425472\")}"
+time="2023-12-15 22:55:13" level=debug msg=Log-SendInfoService-Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:}}" process_time (ms): =0.001041
+time="2023-12-15 22:55:13" level=info msg="[GIN] 2023/12/15 - 22:55:13 | 200 |    4.592875ms |       127.0.0.1 | POST     \"/send/info/service\""
+time="2023-12-15 23:38:41" level=error msg="http: Server closed"

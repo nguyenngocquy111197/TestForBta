@@ -1,0 +1,16 @@
+host_server:
+  bind: 0.0.0.0
+  host:  127.0.0.1
+  port: "8082"
+mongodb:
+  username: ""
+  uri: ""
+  pwd: ""
+  domains:
+  - bind: 0.0.0.0
+    host: 127.0.0.1
+    port: "27017"
+  db_name: bTaskee
+  replica_set: ""
+  timeout: 30s
+log_to_file: ./logs

@@ -1,0 +1,7 @@
+time="2023-12-15 20:33:45" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
+time="2023-12-15 20:33:49" level=debug msg="Log-Request:" json="{Code:2 Name:Dịch vụ dọn dẹp máy lạnh}"
+time="2023-12-15 20:33:49" level=debug msg=Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Id:ObjectID(\"657c55bd374445bb56d8d742\")}" process_time (ms): =4.894041
+time="2023-12-15 20:33:49" level=info msg="[GIN] 2023/12/15 - 20:33:49 | 200 |    7.502375ms |       127.0.0.1 | POST     \"/booking/familyService/insert\""
+time="2023-12-15 20:34:18" level=debug msg=Response json="{BasicResp:{Code:0 Message: ReturnIndex:0 ReturnAction:} Result:[{ID:ObjectID(\"657c537941924c3837425475\") Code:1 Name:Dịch vụ dọn nhà Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:24:09.135 +0000 UTC CreateAt:2023-12-15 13:24:09.135 +0000 UTC} {ID:ObjectID(\"657c55bd374445bb56d8d742\") Code:2 Name:Dịch vụ dọn dẹp máy lạnh Popularity:0 IsRemoved:false LastUpdate:2023-12-15 13:33:49.076 +0000 UTC CreateAt:2023-12-15 13:33:49.076 +0000 UTC}]}" process_time (ms): =4.250791
+time="2023-12-15 20:34:18" level=info msg="[GIN] 2023/12/15 - 20:34:18 | 200 |    5.479292ms |       127.0.0.1 | GET      \"/booking/familyService/get\""
+time="2023-12-15 20:35:12" level=error msg="http: Server closed"

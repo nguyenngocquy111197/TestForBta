@@ -1,0 +1,2 @@
+time="2023-12-18 08:56:22" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8082"
+time="2023-12-18 08:56:33" level=error msg="http: Server closed"

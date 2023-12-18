@@ -1,0 +1,9 @@
+time="2023-12-15 20:32:06" level=info msg="[   Server] Server Version 4 start on  0.0.0.0:8080"
+time="2023-12-15 20:32:13" level=debug msg="Log-Request:" json="{Code:1 Name:Dịch vụ dọn nhà}"
+time="2023-12-15 20:32:13" level=debug msg=Response json="{BasicResp:{Code:1 Message:Code Exist ReturnIndex:3 ReturnAction:bookingService.CreateFamilyServices} Id:ObjectID(\"000000000000000000000000\")}" process_time (ms): =6.197167
+time="2023-12-15 20:32:13" level=info msg="[GIN] 2023/12/15 - 20:32:13 | 200 |   10.514708ms |       127.0.0.1 | POST     \"/booking/familyService/insert\""
+time="2023-12-15 20:32:28" level=debug msg="Log-Request:" json="{Code:2 Name:Dịch vụ dọn dẹp máy lạnh}"
+time="2023-12-15 20:32:28" level=debug msg=Response json="{BasicResp:{Code:2 Message:mongo: no documents in result ReturnIndex:2 ReturnAction:bookingService.CreateFamilyServices} Id:ObjectID(\"000000000000000000000000\")}" process_time (ms): =1.137291
+time="2023-12-15 20:32:28" level=info msg="[GIN] 2023/12/15 - 20:32:28 | 200 |    1.790875ms |       127.0.0.1 | POST     \"/booking/familyService/insert\""
+time="2023-12-15 20:32:36" level=error msg="http: Server closed"
+time="2023-12-15 20:32:36" level=info msg="[   Server] Server has shutdown !"
